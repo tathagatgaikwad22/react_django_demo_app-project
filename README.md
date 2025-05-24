@@ -1,2 +1,3 @@
-# react_django_demo_app-project
+# react_django_demo_app
+A demo app
 Project 1
