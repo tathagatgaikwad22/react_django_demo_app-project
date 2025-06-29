@@ -42,6 +42,42 @@ cd ../frontend
 npm install
 npm start
 
+### Project Structure
+
+react_django_demo_app-project/
+│
+├── backend/                 # Django backend code
+│   ├── backend/             # Django project settings
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   ├── core/                # Django app (API endpoints here)
+│   │   ├── migrations/
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   ├── tests.py
+│   │   └── views.py
+│   ├── manage.py
+│   └── requirements.txt
+│
+├── frontend/                # React frontend code
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── ...
+│   ├── package.json
+│   └── package-lock.json
+│
+└── README.md                # This file
+
+
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
