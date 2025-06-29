@@ -117,6 +117,7 @@ react_django_demo_app-project/
 └── README.md               # This file
 
 
+
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
