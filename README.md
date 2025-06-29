@@ -99,23 +99,21 @@ This project is a demo full-stack application that integrates React on the front
    The React app will communicate with the Django backend API to fetch or post data.
 
 ## Project Structure
-
 react_django_demo_app-project/
 │
-├── backend/                # Django backend code
-│   ├── manage.py
-│   ├── app/                # Your Django app(s)
-│   ├── requirements.txt
-│   └── ...
+├── backend/ # Django backend code
+│ ├── manage.py
+│ ├── app/ # Your Django app(s)
+│ ├── requirements.txt
+│ └── ...
 │
-├── frontend/               # React frontend code
-│   ├── public/
-│   ├── src/
-│   ├── package.json
-│   └── ...
+├── frontend/ # React frontend code
+│ ├── public/
+│ ├── src/
+│ ├── package.json
+│ └── ...
 │
-└── README.md               # This file
-
+└── README.md # This file
 
 
 ## Contributing
