@@ -39,17 +39,13 @@ python manage.py runserver
 ### Frontend Setup
 
 1. Open a new terminal window/tab and navigate to the frontend directory:
-
-
   	cd ../frontend
 
 2. Install frontend dependencies:
-
   	npm install
 
 3. Start the React development server:
-
-	  npm start
+	npm start
 
 ### Running the Application
 
