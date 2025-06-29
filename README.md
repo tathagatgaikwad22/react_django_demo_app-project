@@ -36,11 +36,27 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 
-Frontend Setup
+### Frontend Setup
 
-cd ../frontend
-npm install
-npm start
+1. Open a new terminal window/tab and navigate to the frontend directory:
+
+
+  	cd ../frontend
+
+2. Install frontend dependencies:
+
+  	npm install
+
+3. Start the React development server:
+
+	  npm start
+
+### Running the Application
+
+Backend server runs by default at: http://127.0.0.1:8000/
+React frontend runs by default at: http://localhost:3000/
+
+The React app will communicate with the Django backend API to fetch or post data.
 
 ### Project Structure
 
